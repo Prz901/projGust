@@ -159,12 +159,88 @@
           <h1>Installation</h1>
           <!-- Conteudo mediano da pagina com o passo a passo do adonis -->
           <div>
-            <div>
-              <ul class = "boxInterna">
-                <li><a href="#system_requires">System Requirements</a></li>
-                <li><a href="#Installing_adonis">Installing AdonisJs</a></li>
-                <li><a href="#serving_the_application">Serving the application</a></li>
+              <ul class = "ulCaixa">
+                <li ><a href="#system_requires">System Requirements</a></li>
+                <li ><a href="#Installing_adonis">Installing AdonisJs</a></li>
+                <li ><a href="#serving_the_application">Serving the application</a></li>
               </ul>
+              <p class = "paragrafo">
+                  Installing AdonisJs is a simple process and will only take a few minutes.
+              </p> 
+          </div>
+          <div class = "select1">
+            <h2 class = "systemReq">
+              System Requirements
+            </h2>
+            <di>
+              <div  class = paragrafo>
+                <p>
+                  The only dependencies of the framework are <code>Node.js</code> and <code>npm</code>.
+                </p>
+              </div>
+              <div  class = paragrafo>
+                  <p>
+                      Ensure your versions of those tools match the following criteria:
+                  </p>
+              </div>
+              <div class = ulList>
+                  <ul>
+                    <li>
+                      <p>Node.js >= 8.0.0</p>
+                    </li>
+                    <li>
+                      <p>npm =>3.0.0</p>
+                    </li>
+                  </ul>
+              </div>
+              <div class = "admonitionblock">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          You can use tools like 
+                          <a href="#">nvm</a>
+                          to help manage multiple versions of  Node.js and npm at the same time.  
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>   
+              </div>
+            </di>
+          </div>
+          <div class = "select1">
+            <h2 class = "systemReq">Installing AdonisJs</h2>
+            <div class = "sect2">
+              <h3 class = "h3">
+                Via AdonisJs CLI
+              </h3>
+              <div class = "paragrafo">
+                <p>AdonisJs CLI is a command line tool to help you install AdonisJs.</p>
+              </div>
+              <div class = "paragrafo">
+                <p>Install it globally via <code>npm</code> like so:</p>
+              </div>
+              <div class = "admonitionblock">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td> 1|</td>
+                      <td><i>npm i -g @adonisjs/cli</i></td>
+                  </tbody>
+                </table>
+              </div>
+              <div class = "admonitionblock">
+                  <table>
+                      <tbody>
+                        <tr>
+                          <td>You can also use <code>npx</code> to avoid installing the CLI globally</td>
+                      </tbody>
+                    </table>
+              </div>
+              <div class = "paragrafo">
+                <p>Make sure to add the <code>npm</code> system-wide <code>node_modules/.bin</code></p>
+                <p>directory to your <code>$PATH</code> to be able to access the installed binary></p>
+              </div>
             </div>
           </div>
         </div>
