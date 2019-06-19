@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instalation</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="adonisPagina.png" />
+    <link rel="stylesheet" href="adonis.css" />
+  </head>
+  <body>
+    <div style="overflow: auto; min-height: 100vh">
+    <div class="navbar" class="countainer">
+      <ul class = "floatLeft">
+        <li><img src="adonis.jpg" class="adonisImg" /></li>
+
+        <li><input class="text" type="text" placeholder="Search docs" /></li>
+
+        <li><a class="menu" href="#quick start">Quick Start</a></li>
+        <li><a class="menu" href="#guides">Guides</a></li>
+        <li><a class="menu" href="#sponsor">Sponsors</a></li>
+        <li>
+          <div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                community
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Official Packages</a>
+                <a href="#">Screecasts</a>
+                <a href="#">Twitter</a>
+                <a href="#">Github</a>
+                <a href="#">Forum</a>
+                <a href="#">Blog</a>
+                <a href="#">Discord</a>
+                <a href="#">Donate</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><img class="github" src="github.png" /></li>
+      </ul>
+    </div>
+    <main>
+      <!-- conteudo da parte de cima e lateral da pagina -->
+      <div class="title-wrapper">
+
+        <div class="sidenav" class="countainer" style="min-height:100%; height: 5000px; position: absolute" >
+              <select class="select">
+                <option value="version4.1">version 4.1</option>
+                <option value="version4.0">version 4.0</option>
+                <option value="version3.2">version 3.2( legacy )</option>
+              </select>
+              <aside class = "menu">
+              <p class= "menuLabel">Preface</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">About AdonisJs </a></li>
+                  <li class="menuLi"><a href="#">Upgrading from 4.0</a></li>
+                  <li class="menuLi"><a href="#">Contribution guide</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">Concept</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Request Lifecycle </a></li>
+                  <li class="menuLi"><a href="#">Ioc Container</a></li>
+                  <li class="menuLi"><a href="#">Service Provider</a></li>
+                  <li class="menuLi"><a href="#">Ignitor</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">Getting Started</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Installation </a></li>
+                  <li class="menuLi"><a href="#">Configuration</a></li>
+                  <li class="menuLi"><a href="#">Directory Structure</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">Basics</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Routing </a></li>
+                  <li class="menuLi"><a href="#">Middleware</a></li>
+                  <li class="menuLi"><a href="#">Controllers</a></li>
+                  <li class="menuLi"><a href="#">Request</a></li>
+                  <li class="menuLi"><a href="#">Response</a></li>
+                  <li class="menuLi"><a href="#">Views</a></li>
+                  <li class="menuLi"><a href="#">Sessions</a></li>
+                  <li class="menuLi"><a href="#">Validator</a></li>
+                  <li class="menuLi"><a href="#">Erro Handling</a></li>
+                  <li class="menuLi"><a href="#">Logger</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">Security</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Introduction </a></li>
+                  <li class="menuLi"><a href="#">Authentication</a></li>
+                  <li class="menuLi"><a href="#">CORS</a></li>
+                  <li class="menuLi"><a href="#">CSFR Protection</a></li>
+                  <li class="menuLi"><a href="#">Encryption and Hashing</a></li>
+                  <li class="menuLi"><a href="#">Shield Middleware</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">Digging deeper</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Ace Commands</a></li>
+                  <li class="menuLi"><a href="#">Events</a></li>
+                  <li class="menuLi"><a href="#"> Extending the Core</a></li>
+                  <li class="menuLi"><a href="#">File Uploads</a></li>
+                  <li class="menuLi"><a href="#">File Storage</a></li>
+                  <li class="menuLi"><a href="#">Helpers</a></li>
+                  <li class="menuLi"><a href="#">Internationalization</a></li>
+                  <li class="menuLi"><a href="#">Mail</a></li>
+                  <li class="menuLi"><a href="#">Social Authentication</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">DataBase</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Getting Started</a></li>
+                  <li class="menuLi"><a href="#">Query Builder</a></li>
+                  <li class="menuLi"><a href="#">Migrations</a></li>
+                  <li class="menuLi"><a href="#">Seeds & Factories</a></li>
+                  <li class="menuLi"><a href="#">Redis</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">Lucid Orm</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Getting Started</a></li>
+                  <li class="menuLi"><a href="#">Hooks</a></li>
+                  <li class="menuLi"><a href="#">Traits</a></li>
+                  <li class="menuLi"><a href="#">Mutators</a></li>
+                  <li class="menuLi"><a href="#">Relationships</a></li>
+                  <li class="menuLi"><a href="#">Serialization</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">websockets</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Getting Started</a></li>
+                  <li class="menuLi"><a href="#">Philosophy</a></li>
+                  <li class="menuLi"><a href="#">Server API</a></li>
+                  <li class="menuLi"><a href="#">Client API</a></li>
+                </ul>
+              </aside>
+              <aside class = "menu">
+              <p class= "menuLabel">Testing</p>
+                <ul class = "menuInterno">
+                  <li class="menuLi"><a href="#">Getting Started</a></li>
+                  <li class="menuLi"><a href="#">HTTP Tests</a></li>
+                  <li class="menuLi"><a href="#">Browser Tests</a></li>
+                  <li class="menuLi"><a href="#">Fakes</a></li>
+                </ul>
+              </aside>
+        </div>
+        <div class = "containerMed">
+          <h1>Installation</h1>
+          <!-- Conteudo mediano da pagina com o passo a passo do adonis -->
+          <div>
+              <ul class = "ulCaixa">
+                <li ><a href="#system_requires">System Requirements</a></li>
+                <li ><a href="#Installing_adonis">Installing AdonisJs</a></li>
+                <li ><a href="#serving_the_application">Serving the application</a></li>
+              </ul>
+              <p class = "paragrafo">
+                  Installing AdonisJs is a simple process and will only take a few minutes.
+              </p> 
+          </div>
+          <div class = "select1">
+            <h2 class = "systemReq">
+              System Requirements
+            </h2>
+            <di>
+              <div  class = paragrafo>
+                <p>
+                  The only dependencies of the framework are <code>Node.js</code> and <code>npm</code>.
+                </p>
+              </div>
+              <div  class = paragrafo>
+                  <p>
+                      Ensure your versions of those tools match the following criteria:
+                  </p>
+              </div>
+              <div class = ulList>
+                  <ul>
+                    <li>
+                      <p>Node.js >= 8.0.0</p>
+                    </li>
+                    <li>
+                      <p>npm =>3.0.0</p>
+                    </li>
+                  </ul>
+              </div>
+              <div class = "admonitionblock">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          You can use tools like 
+                          <a href="#">nvm</a>
+                          to help manage multiple versions of  Node.js and npm at the same time.  
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>   
+              </div>
+            </di>
+          </div>
+          <div class = "select1">
+            <h2 class = "systemReq">Installing AdonisJs</h2>
+            <div class = "sect2">
+              <h3 class = "h3">
+                Via AdonisJs CLI
+              </h3>
+              <div class = "paragrafo">
+                <p>AdonisJs CLI is a command line tool to help you install AdonisJs.</p>
+              </div>
+              <div class = "paragrafo">
+                <p>Install it globally via <code>npm</code> like so:</p>
+              </div>
+              <div class = "admonitionblock">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td> 1|</td>
+                      <td><i>npm i -g @adonisjs/cli</i></td>
+                  </tbody>
+                </table>
+              </div>
+              <div class = "admonitionblock">
+                  <table>
+                      <tbody>
+                        <tr>
+                          <td>You can also use <code>npx</code> to avoid installing the CLI globally</td>
+                      </tbody>
+                    </table>
+              </div>
+              <div class = "paragrafo">
+                <p class = "bigP">Make sure to add the <code>npm</code> system-wide <code>node_modules/.bin</code>
+                directory to your <code>$PATH</code> to be able to access the installed binary></p>
+              </div>
+              <div class = "paragrafo">
+                  <p class="bigP">Once installed, you can use the <code>adonis new</code>
+                  command  to create fresh installations of AdonisJs.</p>
+              </div>
+              <div class = "paragrafo">
+                  <p class="bigP">For example, to create a new application called <code>yardstick</code>, simply:
+                  </p>
+              </div>
+              <div class = "admonitionblock">
+              <table>
+                <tbody>
+                  <tr>
+                    <td> <i>> adonis new yardstick</i></td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+              <div class = "paragrafoNote">
+                <p>#Note:</p>
+              </div>
+              <div class = "admonitionblock" >
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><p class = "bigP">By default the <a href="#">fullstack blueprint</a> is cloned from Github. 
+                        You can customize this by using the option <code>--api--only</code> or  <code>--slin</code>.
+                      </p></td>                      
+                    </tr>
+                    <tr>
+                        <td><p class="bigP">You can also specify your own blueprint by using the option 
+                          <code> --blueprint = < github-org/repo > </code>
+                        </p></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="sect2">
+              <h3 class="viaGit">Via Git</h3>
+              <div class="paragrafo">
+                <p style="margin-left: 4%"> Alternatively, you can use <code>git</code> directly to fetch our boilerplates:</p>
+              </div>
+              <div class="githubLine">
+                <p class="comentarios"># Fullstack</p>
+                <p> > git clone --dissociate https://github.com/adonisjs/adonis-fullstack-app</p>
+                <p></p>
+                <p class="comentarios"># API</p>
+                <P> > git clone --dissociate https://github.com/adonisjs/adonis-api-app</P>
+                <p class="comentarios"># Slim</p>
+                <p> > git clone --dissociate https://github.com/adonisjs/adonis-slim-app</p>
+              </div>
+              <div class="paragrafo">
+                  <p style="margin-left: 4%">After cloning a boilerplate, intall all dependencies by running <code>npm install</code> .</p>
+              </div>
+            </div>
+          </div>
+          <div class="select1">
+            <h2 class="systemReq">Serving the application</h2>
+            <div class="paragrafo">
+              <p class="bigP">Once the installation process has completed, you can <i>cd</i>
+              into your new application directoryand run the following command to start HTTP Server:
+              </p>
+            </div>
+            <div class="admonitionblock">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <code>adonis server --dev</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="paragrafo">
+              <p class="bigP"> This command starts the server port defined insite the root <code>.env</code>
+              file.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  </body>
+</html>
