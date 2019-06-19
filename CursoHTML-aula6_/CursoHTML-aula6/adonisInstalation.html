@@ -238,9 +238,87 @@
                     </table>
               </div>
               <div class = "paragrafo">
-                <p>Make sure to add the <code>npm</code> system-wide <code>node_modules/.bin</code></p>
-                <p>directory to your <code>$PATH</code> to be able to access the installed binary></p>
+                <p class = "bigP">Make sure to add the <code>npm</code> system-wide <code>node_modules/.bin</code>
+                directory to your <code>$PATH</code> to be able to access the installed binary></p>
               </div>
+              <div class = "paragrafo">
+                  <p class="bigP">Once installed, you can use the <code>adonis new</code>
+                  command  to create fresh installations of AdonisJs.</p>
+              </div>
+              <div class = "paragrafo">
+                  <p class="bigP">For example, to create a new application called <code>yardstick</code>, simply:
+                  </p>
+              </div>
+              <div class = "admonitionblock">
+              <table>
+                <tbody>
+                  <tr>
+                    <td> <i>> adonis new yardstick</i></td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+              <div class = "paragrafoNote">
+                <p>#Note:</p>
+              </div>
+              <div class = "admonitionblock" >
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><p class = "bigP">By default the <a href="#">fullstack blueprint</a> is cloned from Github. 
+                        You can customize this by using the option <code>--api--only</code> or  <code>--slin</code>.
+                      </p></td>                      
+                    </tr>
+                    <tr>
+                        <td><p class="bigP">You can also specify your own blueprint by using the option 
+                          <code> --blueprint = < github-org/repo > </code>
+                        </p></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="sect2">
+              <h3 class="viaGit">Via Git</h3>
+              <div class="paragrafo">
+                <p style="margin-left: 4%"> Alternatively, you can use <code>git</code> directly to fetch our boilerplates:</p>
+              </div>
+              <div class="githubLine">
+                <p class="comentarios"># Fullstack</p>
+                <p> > git clone --dissociate https://github.com/adonisjs/adonis-fullstack-app</p>
+                <p></p>
+                <p class="comentarios"># API</p>
+                <P> > git clone --dissociate https://github.com/adonisjs/adonis-api-app</P>
+                <p class="comentarios"># Slim</p>
+                <p> > git clone --dissociate https://github.com/adonisjs/adonis-slim-app</p>
+              </div>
+              <div class="paragrafo">
+                  <p style="margin-left: 4%">After cloning a boilerplate, intall all dependencies by running <code>npm install</code> .</p>
+              </div>
+            </div>
+          </div>
+          <div class="select1">
+            <h2 class="systemReq">Serving the application</h2>
+            <div class="paragrafo">
+              <p class="bigP">Once the installation process has completed, you can <i>cd</i>
+              into your new application directoryand run the following command to start HTTP Server:
+              </p>
+            </div>
+            <div class="admonitionblock">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <code>adonis server --dev</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="paragrafo">
+              <p class="bigP"> This command starts the server port defined insite the root <code>.env</code>
+              file.
+              </p>
             </div>
           </div>
         </div>
